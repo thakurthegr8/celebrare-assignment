@@ -17,7 +17,7 @@ const Navbar = () => {
       </Typography.Heading>
       <Row>
         <File onChange={onChange} extension="image/jpg, image/png">
-          File
+          Upload File
         </File>
       </Row>
     </Row>
