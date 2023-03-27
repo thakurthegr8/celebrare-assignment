@@ -11,7 +11,7 @@ const Playground = (props) => {
     setImage(file);
   };
   return (
-    <Col className="w-2/3 bg-gray-200 justify-center items-center p-24">
+    <Col className="w-2/3 bg-gray-200 justify-center items-center p-24 ">
       <Col className="h-[400px] w-[400px] border border-gray-300 justify-center">
         <DragAndDrop onChange={onChange}>
           <Canvas imageSrc={image} shape={shape} />

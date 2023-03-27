@@ -45,7 +45,7 @@ const Preview = () => {
           height={200}
           className="border-2"
         />
-        <Button className="btn-general" onClick={downloadImage}>
+        <Button className="border border-2 border-black btn-sm" onClick={downloadImage}>
           Download
         </Button>
       </Col>
@@ -59,7 +59,7 @@ const tabs = [
 
 const Sidebar = () => {
   return (
-    <Col className="flex-1">
+    <Col className="flex-1 border-l border-gray-300">
       <Tab.Group>
         <Tab.List as={Row} className="gap-2 p-2">
           {tabs.map((item) => (

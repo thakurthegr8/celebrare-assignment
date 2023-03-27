@@ -11,7 +11,7 @@ const Navbar = () => {
     setImage(imageData);
   };
   return (
-    <Row className="items-center p-2 gap-2 border-b">
+    <Row className="items-center p-2 gap-2 border-b border-gray-300">
       <Typography.Heading className="font-bold">
         Image Editor
       </Typography.Heading>

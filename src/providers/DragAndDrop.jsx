@@ -31,7 +31,7 @@ const DragAndDrop = (props) => {
       props.onChange(URL.createObjectURL(files[0]));
     }
   };
-  return <div ref={ref}>{props.children}</div>;
+  return <div ref={ref} className="flex flex-col">{props.children}</div>;
 };
 
 export default DragAndDrop;
