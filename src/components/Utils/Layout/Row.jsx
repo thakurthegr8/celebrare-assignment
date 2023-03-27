@@ -4,4 +4,4 @@ const Row = (props) => {
   return <div {...props} className={`flex  ${props.className}`}/>;
 };
 
-export default Col;
+export default Row;
